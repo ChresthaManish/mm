@@ -118,7 +118,8 @@ PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
     libstdc++_vendor \
-    libgui_vendor
+    libgui_vendor \
+    libpng.vendor
 
 # Component overrides
 PRODUCT_COPY_FILES += \
@@ -419,7 +420,10 @@ PRODUCT_COPY_FILES += \
 
 # QMI
 PRODUCT_PACKAGES += \
-    libjson
+    libcurl.vendor \
+    libjson \
+    libjsoncpp.vendor \
+    libsqlite.vendor
 
 # QTI
 PRODUCT_PACKAGES += \
